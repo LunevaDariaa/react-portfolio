@@ -3,7 +3,7 @@ import AboutPhoto from "./AboutPhoto";
 
 function About() {
   return (
-    <div className="flex justify-center mt-32 h-max">
+    <div className="flex justify-center m-0 mt-32">
       <AboutInfo />
       <AboutPhoto />
     </div>

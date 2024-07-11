@@ -5,7 +5,7 @@ import Skills from "./Skills/Skills";
 
 function AppLayout() {
   return (
-    <div className="flex h-auto 0 bg-purple-50">
+    <div className="flex flex-col justify-between bg-purple-50 ">
       <Navbar />
       <About />
       <Skills />
