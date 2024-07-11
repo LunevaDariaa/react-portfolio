@@ -1,9 +1,11 @@
+import AboutInfo from "./AboutInfo";
+import AboutPhoto from "./AboutPhoto";
+
 function About() {
   return (
-    <div className="flex flex-col items-center justify-center ">
-      <h4>Hi!</h4>
-      <h1>{`I'm Daria Luneva`}</h1>
-      <h1> a Full-stack developer</h1>
+    <div className="flex justify-center mt-32 h-max">
+      <AboutInfo />
+      <AboutPhoto />
     </div>
   );
 }
